@@ -1,5 +1,5 @@
-f=open('/home/pi/consolewdfiles/twitter.txt', 'r')
-tweet=open('/home/pi/tweet.txt', 'w')
+f=open('/PATH/TO/CONDITIONS/FILE', 'r')
+tweet=open('PATH/TO/WRITE/TWEET/TO', 'w')
 lines=f.readlines()
 variables=[]
 for i in lines:
