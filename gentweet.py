@@ -1,5 +1,5 @@
 f=open('/PATH/TO/CONDITIONS/FILE', 'r')
-tweet=open('PATH/TO/WRITE/TWEET/TO', 'w')
+tweet=open('/PATH/TO/WRITE/TWEET/TO', 'w')
 lines=f.readlines()
 variables=[]
 for i in lines:
